@@ -49,9 +49,9 @@ To run this analysis follow the following steps:
 
 `R/model_comparison_extraction.R` Compares models using Model Evidence (Bridge Sampling) and Predictive Density (ELPD_LOO). This script must be run separately from the targets pipeline.
 
-# License
-This code is released with a permissive open-source license, and the code in this repository may be used and adapted only in compliance with the terms of the license. If you make use of the code, we would appreciate that you cite the work.
-
 `R/posterior_distribution_differences_95HDI.R` Calculate, summarize, and plot difference of means of posterior distributions. This script must be run separately from the targets pipeline.
 
 `R/posterior_parameters_stats.R` Calculates group level posterior parameter stats. This script must be run separately from the targets pipeline.
+
+# License
+This code is released with a permissive open-source license, and the code in this repository may be used and adapted only in compliance with the terms of the license. If you make use of the code, we would appreciate that you cite the work.
