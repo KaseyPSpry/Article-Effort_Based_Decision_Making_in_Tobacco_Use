@@ -71,6 +71,14 @@ get_bridge_error <- function(.model_fit,
        error = errors)
 }
 
+#' Extract model comparison
+#'
+#' @param bridge_errors list of bridge error targets for each model
+#' @param loo_results list of loo result targets for each model
+#' @param excel_path output path
+#'
+#' @returns
+#'
 extract_model_comparison <- function(
     bridge_errors,
     loo_results,
