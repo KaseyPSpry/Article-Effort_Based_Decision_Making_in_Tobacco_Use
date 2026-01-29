@@ -21,11 +21,15 @@ generate_group_posterior_plot_tdrl_learnrate <- function(model_fit, stan_data) {
   learnrate_samples <- model_fit[["mu_learnrate_group"]]
 
   group_labels <- c(
-    "Never TUD",     # 1
-    "Former TUD",    # 2
-    "Current TUD",   # 3
-    "TUD+OUD"        # 4
+    "1" = "Never TUD",     # 1
+    "2" = "Former TUD",    # 2
+    "3" = "Current TUD",   # 3
+    "4" = "TUD+OUD"        # 4
   )
+
+  group_levels <- unname(group_labels)
+
+  group_levels <- unname(group_labels)
 
   get_MAP <- function(samples) {
     dens <- density(samples)
@@ -39,7 +43,12 @@ generate_group_posterior_plot_tdrl_learnrate <- function(model_fit, stan_data) {
     participant_MAP = apply(model_fit$learnrate, 2, get_MAP),
     group_id = stan_data$group_id
   ) %>%
-    mutate(group = factor(group_labels[group_id], levels = group_labels))
+    mutate(
+      group = factor(
+        group_labels[as.character(group_id)],
+        levels = group_levels
+      )
+    )
 
   post_data_group <- as_tibble(learnrate_samples) %>%
     setNames(group_labels) %>%
@@ -47,7 +56,8 @@ generate_group_posterior_plot_tdrl_learnrate <- function(model_fit, stan_data) {
       cols = everything(),
       names_to = "group",
       values_to = "value"
-    )
+    ) %>%
+    mutate(group = factor(group, levels = group_levels))
 
   hdi_data <- post_data_group %>%
     group_by(group) %>%
@@ -55,16 +65,8 @@ generate_group_posterior_plot_tdrl_learnrate <- function(model_fit, stan_data) {
       lower = HDInterval::hdi(value, credMass = 0.95)[1],
       upper = HDInterval::hdi(value, credMass = 0.95)[2],
       .groups = "drop"
-    )
-
-  post_data_group <- post_data_group %>%
-    mutate(group = factor(group, levels = group_labels))
-
-  post_data_individual <- post_data_individual %>%
-    mutate(group = factor(group, levels = group_labels))
-
-  hdi_data <- hdi_data %>%
-    mutate(group = factor(group, levels = group_labels))
+    ) %>%
+    mutate(group = factor(group, levels = group_levels))
 
   model_color_vec <- c(
     "Former TUD" = "#008C95",
@@ -135,11 +137,13 @@ generate_group_posterior_plot_tdrl_discount <- function(model_fit, stan_data) {
   discount_samples <- model_fit[["mu_discount_group"]]
 
   group_labels <- c(
-    "Never TUD",     # 1
-    "Former TUD",    # 2
-    "Current TUD",   # 3
-    "TUD+OUD"        # 4
+    "1" = "Never TUD",     # 1
+    "2" = "Former TUD",    # 2
+    "3" = "Current TUD",   # 3
+    "4" = "TUD+OUD"        # 4
   )
+
+  group_levels <- unname(group_labels)
 
   get_MAP <- function(samples) {
     dens <- density(samples)
@@ -153,7 +157,12 @@ generate_group_posterior_plot_tdrl_discount <- function(model_fit, stan_data) {
     participant_MAP = apply(model_fit$discount, 2, get_MAP),
     group_id = stan_data$group_id
   ) %>%
-    mutate(group = factor(group_labels[group_id], levels = group_labels))
+    mutate(
+      group = factor(
+        group_labels[as.character(group_id)],
+        levels = group_levels
+      )
+    )
 
   post_data_group <- as_tibble(discount_samples) %>%
     setNames(group_labels) %>%
@@ -161,7 +170,8 @@ generate_group_posterior_plot_tdrl_discount <- function(model_fit, stan_data) {
       cols = everything(),
       names_to = "group",
       values_to = "value"
-    )
+    ) %>%
+    mutate(group = factor(group, levels = group_levels))
 
   hdi_data <- post_data_group %>%
     group_by(group) %>%
@@ -169,16 +179,8 @@ generate_group_posterior_plot_tdrl_discount <- function(model_fit, stan_data) {
       lower = HDInterval::hdi(value, credMass = 0.95)[1],
       upper = HDInterval::hdi(value, credMass = 0.95)[2],
       .groups = "drop"
-    )
-
-  post_data_group <- post_data_group %>%
-    mutate(group = factor(group, levels = group_labels))
-
-  post_data_individual <- post_data_individual %>%
-    mutate(group = factor(group, levels = group_labels))
-
-  hdi_data <- hdi_data %>%
-    mutate(group = factor(group, levels = group_labels))
+    ) %>%
+    mutate(group = factor(group, levels = group_levels))
 
   model_color_vec <- c(
     "Former TUD" = "#008C95",
@@ -249,11 +251,13 @@ generate_group_posterior_plot_tdrl_inv_temp <- function(model_fit, stan_data) {
   inv_temp_samples <- model_fit[["mu_inv_temp_group"]]
 
   group_labels <- c(
-    "Never TUD",     # 1
-    "Former TUD",    # 2
-    "Current TUD",   # 3
-    "TUD+OUD"        # 4
+    "1" = "Never TUD",     # 1
+    "2" = "Former TUD",    # 2
+    "3" = "Current TUD",   # 3
+    "4" = "TUD+OUD"        # 4
   )
+
+  group_levels <- unname(group_labels)
 
   get_MAP <- function(samples) {
     dens <- density(samples)
@@ -267,7 +271,12 @@ generate_group_posterior_plot_tdrl_inv_temp <- function(model_fit, stan_data) {
     participant_MAP = apply(model_fit$inv_temp, 2, get_MAP),
     group_id = stan_data$group_id
   ) %>%
-    mutate(group = factor(group_labels[group_id], levels = group_labels))
+    mutate(
+      group = factor(
+        group_labels[as.character(group_id)],
+        levels = group_levels
+      )
+    )
 
   post_data_group <- as_tibble(inv_temp_samples) %>%
     setNames(group_labels) %>%
@@ -275,7 +284,8 @@ generate_group_posterior_plot_tdrl_inv_temp <- function(model_fit, stan_data) {
       cols = everything(),
       names_to = "group",
       values_to = "value"
-    )
+    ) %>%
+    mutate(group = factor(group, levels = group_levels))
 
   hdi_data <- post_data_group %>%
     group_by(group) %>%
@@ -283,16 +293,8 @@ generate_group_posterior_plot_tdrl_inv_temp <- function(model_fit, stan_data) {
       lower = HDInterval::hdi(value, credMass = 0.95)[1],
       upper = HDInterval::hdi(value, credMass = 0.95)[2],
       .groups = "drop"
-    )
-
-  post_data_group <- post_data_group %>%
-    mutate(group = factor(group, levels = group_labels))
-
-  post_data_individual <- post_data_individual %>%
-    mutate(group = factor(group, levels = group_labels))
-
-  hdi_data <- hdi_data %>%
-    mutate(group = factor(group, levels = group_labels))
+    ) %>%
+    mutate(group = factor(group, levels = group_levels))
 
   model_color_vec <- c(
     "Former TUD" = "#008C95",
@@ -362,11 +364,13 @@ generate_group_posterior_plot_legend <- function(model_fit, stan_data) {
   inv_temp_samples <- model_fit[["mu_inv_temp_group"]]
 
   group_labels <- c(
-    "Never TUD",     # 1
-    "Former TUD",    # 2
-    "Current TUD",   # 3
-    "TUD+OUD"        # 4
+    "1" = "Never TUD",     # 1
+    "2" = "Former TUD",    # 2
+    "3" = "Current TUD",   # 3
+    "4" = "TUD+OUD"        # 4
   )
+
+  group_levels <- unname(group_labels)
 
   get_MAP <- function(samples) {
     dens <- density(samples)
@@ -380,15 +384,20 @@ generate_group_posterior_plot_legend <- function(model_fit, stan_data) {
     participant_MAP = apply(model_fit$inv_temp, 2, get_MAP),
     group_id = stan_data$group_id
   ) %>%
-    mutate(group = factor(group_labels[group_id], levels = group_labels))
-
+    mutate(
+      group = factor(
+        group_labels[as.character(group_id)],
+        levels = group_levels
+      )
+    )
   post_data_group <- as_tibble(inv_temp_samples) %>%
     setNames(group_labels) %>%
     pivot_longer(
       cols = everything(),
       names_to = "group",
       values_to = "value"
-    )
+    ) %>%
+    mutate(group = factor(group, levels = group_levels))
 
   hdi_data <- post_data_group %>%
     group_by(group) %>%
@@ -397,16 +406,8 @@ generate_group_posterior_plot_legend <- function(model_fit, stan_data) {
       upper = HDInterval::hdi(value, credMass = 0.95)[2],
       mean = mean(value),
       .groups = "drop"
-    )
-
-  post_data_group <- post_data_group %>%
-    mutate(group = factor(group, levels = group_labels))
-
-  post_data_individual <- post_data_individual %>%
-    mutate(group = factor(group, levels = group_labels))
-
-  hdi_data <- hdi_data %>%
-    mutate(group = factor(group, levels = group_labels))
+    ) %>%
+    mutate(group = factor(group, levels = group_levels))
 
   model_color_vec <- c(
     "Former TUD" = "#008C95",
