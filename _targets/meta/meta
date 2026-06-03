@@ -1,0 +1,207 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|817ec060e5a8263e|||||||||||||||
+actual_params|stem|47a58c3bdb14a72e|f90462f8b39a5ce1|2eb6f625b2af6fba|-525760049||t20433.7580026551s|1a91f25800c45419|2567|rds|local|vector|||0.505||
+actual_params_FullSV|stem|32d73a7e977a0ffe|d4e6220ed9604b6f|513595e7a95ea25c|-1575705840||t20466.8383131932s|c14e017dc42e6bd1|2454|rds|local|vector|||0.46||
+actual_params_RewardOnly|stem|d1bebae4a89ad3cd|bc559ad30146c65a|59fe043c994f09d9|168687318||t20466.8382854978s|9e9fce32f6a0c333|1748|rds|local|vector|||0.311||
+actual_params_TDRL|stem|47a58c3bdb14a72e|f90462f8b39a5ce1|2eb6f625b2af6fba|1042842736||t20466.8351787905s|1a91f25800c45419|2567|rds|local|vector|||0.49||
+add_group_labels|function|4bc7a9f39022a085|||||||||||||||
+aggregate_model_recovery|function|5e84d3ff8973e461|||||||||||||||
+bridge_error_FullSV|stem|6637e02af2ae1df1|42868afffa24cb77|e93c4ee3176a3f30|-317363378||t20472.8335483963s|801cade07abe9db2|312|rds|local|vector|||363.429||
+bridge_error_RewardOnly|stem|aac6a5ecdd991a95|9797a52287ddd5a2|99faf79122aa96f9|-1657853961||t20472.837152254s|d3e83d604f91dd7a|310|rds|local|vector|||308.323||
+bridge_error_TDRL|stem|cbfbac2b083fd534|480f9331daa1fa63|1496cb56f7df3308|-1791256895||t20472.8293149282s|59c08d4d9e7e0b0e|334|rds|local|vector|||367.03||
+bridge_FullSV_on_FullSV|stem|96093a02230ac115|19a53fc57bd0f508|df6872d8d02a0ec5|1190941120||t20472.8724223924s|801cade07abe9db2|312|rds|local|vector|||145.814||
+bridge_FullSV_on_RewardOnly|stem|cea00577c9811068|98787b5b8ab3efd8|d0a822983c9abbbe|-126819372||t20472.8794010245s|8729b3dc109d06c6|313|rds|local|vector|||149.278||
+bridge_FullSV_on_TDRL|stem|cf18fd4a29a33354|5caefc03c7afdbeb|9eec09e6f9cf0af6|1754944559||t20472.8619600027s|f008763eb0bfd232|318|rds|local|vector|||148.972||
+bridge_models|object|bee062504a16c7ac|||||||||||||||
+bridge_RewardOnly_on_FullSV|stem|949743ba712b5f92|846d203846c0856b|a1ea005ae25c3732|-1865780612||t20472.8758436871s|44d8296aaebe8c60|317|rds|local|vector|||132.128||
+bridge_RewardOnly_on_RewardOnly|stem|929bb115cf316749|8127f61c33616df4|5ee849aec3a93b48|209353866||t20472.8809370989s|42453b716dfde1f4|311|rds|local|vector|||129.881||
+bridge_RewardOnly_on_TDRL|stem|25343cf38a205827|477156bf7213e0f2|65e2617e27d52012|450811672||t20472.8707220664s|b1e85e08060e9f38|321|rds|local|vector|||129.263||
+bridge_summary|stem||ff314ed4ede2a8c1|7823cb9ec0710313|-97009422||t20468.8397556698s||0|rds|local|vector|||0.002||object bridge_summary_single not found
+bridge_table|stem||45a200421f8385ff|aa99d4d0c9ea3907|1907099483||t20472.8809374142s||0|rds|local|vector|||0.013||bridge_samples must be a vector, not a bridge_list object.
+bridge_targets|object|5e0af83c3790f0b5|||||||||||||||
+bridge_TDRL_on_FullSV|stem|89504986247d7dc7|25e2abe2fe1973df|f20c5ef0bdd0263e|506776238||t20472.8742832748s|4f7108de728dd56a|319|rds|local|vector|||159.634||
+bridge_TDRL_on_RewardOnly|stem|208cbe794a56c186|b61bb6bef6cae3b5|adb05d19ad9d67ac|-1182266650||t20472.8776577433s|4fa881245fd93336|320|rds|local|vector|||155.515||
+bridge_TDRL_on_TDRL|stem|b7c6f49db4100815|39bc04788769f2dc|eec8810b6a3dd8d1|-1343061072||t20472.8637527017s|e15587cb24470da7|329|rds|local|vector|||153.813||
+build_hard_mag_and_prob_lists|function|92aa45abb9af1e2f|||||||||||||||
+ci_recovery|stem|361ea6edfb725394|93b41453a9701056|d150aff56386b77d|-1582424937||t20433.7933505405s|270fa3e4c55ce73f|4848|rds|local|vector|||0.85||
+compute_credible_intervals|function|15171873ad3e9fd6|||||||||||||||
+compute_groupwise_recovery_stats|function|ba5c5b3402f60a43|||||||||||||||
+compute_recovery_metrics|function|090c679011c3cc4c|||||||||||||||
+data_path|stem|3ce5b503e4ceab2a|312b59be3ccbc429|dda972f37295018d|1349504789||t20410.650574823s|926031873599603c|834|rds|local|vector|||0.002||
+demographic_data|stem|3b7dd48c39edcc51|fb284e95906d5328|c97abe90c1d812bd|-1602115765||t20494.787418027s|36c2aa591a9628a4|2143|rds|local|vector|||0.038||
+eefrt_performance_data|stem|87a4ddf7c06e2d3d|88cfd35bb286b96a|5ba3f6dc39e629f5|275704791||t20410.6505925523s|0c8adae6ba958115|123521|rds|local|vector|||0.035||
+eefrt_performance_process_data|function|ad0fe26a53b4687a|||||||||||||||
+eefrt_prep_stan_data|function|abf901e35d3be1e1|||||||||||||||
+eefrt_process_data|function|396cb1cd3ce67ebe|||||||||||||||
+eefrt_read_demographics|function|7ea5937c3c2af7bb|||||||||||||||
+eefrt_read_raw_data|function|0c5fd364f586c56f|||||||||||||||
+extract_model_comparison|function|5ac65457fb1ba7b9|||||||||||||||
+extract_participant_MAPs|function|d3c974795ae15b6e|||||||||||||||
+extract_participant_MAPs_fullsv|function|288f5a6660ff496d|||||||||||||||
+extract_participant_MAPs_rewardonly|function|6c3e94dde6d9bd70|||||||||||||||
+extract_recovered_MAPs|function|cbf711fc1aa7b6ab|||||||||||||||
+fit_and_score_one_model|function|41891f7561f764c3|||||||||||||||
+fit_FullSV|stem|53af4d6f6796c07c|a1a56149bfcfe881|e2dc3fee94cc1c71|1415263621||t20424.8157046755s|7eadbcabad45a8ba|281892968|rds|local|vector|||2008.301|There were 5 divergent transitions after warmup. Seehttpsmcstan.orgmiscwarnings.htmldivergenttransitionsafterwarmupto find out why this is a problem and how to eliminate them.. Examine the pairs plot to diagnose sampling problems|
+fit_FullSV_on_FullSVsim|stem|bf9777490f542aa0|133a1ecbc3741444|ecb36dd23286d64f|-875967233||t20469.9136597733s|f20c9685909e7d6f|114669038|rds|local|vector|||640.729||
+fit_FullSV_on_RewardOnlysim|stem|2372a1de8026ad8d|32d991408eebc09c|3d17e0870db5bfa0|1232679102||t20469.953178159s|4a184cb817ed4e39|114897665|rds|local|vector|||610.048||
+fit_FullSV_on_TDRLsim|stem|f8897e6714e8e2c7|74f3e214201488b5|ef5f9663522bed06|1816151363||t20469.8767904474s|88c31874e1740d03|114286667|rds|local|vector|||719.257||
+fit_recovery_05412a13|branch|e88ca3d7d10626e4|72983d26893384e8|21087fd0e5f71a16|547489108||t20466.7088695708s|ed7906e195ae6471|84989512|rds|local|vector|fit_recovery||193.071||
+fit_recovery_06888b86|branch|d2a041c2eeef2ee1|72983d26893384e8|11417ddc6d69ebb9|-418346980||t20466.6722911504s|65b7ce82a95bcd01|84845719|rds|local|vector|fit_recovery||216.431||
+fit_recovery_125346aa|branch|8355b3c8aca16cb8|72983d26893384e8|f4b0a8f319b9006a|571768195||t20466.6937244813s|1672dfc619781a1a|83907873|rds|local|vector|fit_recovery||104.962||
+fit_recovery_172404ef|branch|38d05b074684930d|72983d26893384e8|61c7aa69d823fe40|383862562||t20466.7157556739s|554b20ab490fbfdd|85276034|rds|local|vector|fit_recovery||357.536||
+fit_recovery_365205bb|branch|f039644af611ebd2|72983d26893384e8|9676161186983dbb|1506745924||t20466.6517564801s|dc6c524f9aa24795|84713798|rds|local|vector|fit_recovery||114.919|There were 1 divergent transitions after warmup. Seehttpsmcstan.orgmiscwarnings.htmldivergenttransitionsafterwarmupto find out why this is a problem and how to eliminate them.. Examine the pairs plot to diagnose sampling problems|
+fit_recovery_36cb5a59|branch|1e4ac72f103e0923|72983d26893384e8|154ea091f6168340|-456174820||t20466.6875043641s|f073b2eb970a2dc3|83500395|rds|local|vector|fit_recovery||86.589||
+fit_recovery_3ab7d7ae|branch||72983d26893384e8|b42ece207bd45b5c|1727357346||t20466.7272179378s||0|rds|local|vector|fit_recovery||210.77||vector memory exhausted limit reached
+fit_recovery_3d166396|branch|52ae020aa711b915|72983d26893384e8|2b7e7b914f93da4a|1665539207||t20466.7017563248s|c7de198e1a42c639|84839568|rds|local|vector|fit_recovery||95.128||
+fit_recovery_4046ff87|branch|e112392888552031|72983d26893384e8|295e5e95387391f6|34030770||t20466.6697116302s|1deb0e776f8e4719|85174118|rds|local|vector|fit_recovery||242.111||
+fit_recovery_4916df74|branch|b58212a5a3d83713|72983d26893384e8|254630e07d47b4c4|535733777||t20466.6611157415s|54fd3328deb5acf1|85069018|rds|local|vector|fit_recovery||100.386||
+fit_recovery_59d926f5|branch|8e0f0696327046d0|72983d26893384e8|792b4092d5c5057e|1066485960||t20466.6587510972s|9cf12ad86fee44fd|85382820|rds|local|vector|fit_recovery||117.463||
+fit_recovery_5e71a119|branch|a3448cbceda549c6|72983d26893384e8|a476e971060f5b26|-1669660403||t20466.6559654163s|01def617cf8badc7|83975678|rds|local|vector|fit_recovery||111.029||
+fit_recovery_5ed8ba16|branch|fe70c49292a39731|72983d26893384e8|28f32533e47ee4f8|209543364||t20466.720132875s|6268b17da02058e6|84908630|rds|local|vector|fit_recovery||371.593||
+fit_recovery_60af8263|branch|e84e86bb3c1beb83|72983d26893384e8|dbb951b5d17039fd|1274249429||t20466.6977390971s|76fdbe612f3df74d|84797855|rds|local|vector|fit_recovery||101.486||
+fit_recovery_60bacdd0|branch|d9e9535d00e5e2e2|72983d26893384e8|ba82680be51fbd9a|1084076837||t20466.6828282405s|9c603a248b578864|85351770|rds|local|vector|fit_recovery||529.319||
+fit_recovery_60d260be|branch|104380ce33cdeff6|72983d26893384e8|08c46fa00638fcf2|882490634||t20466.7247778794s|84f5eceae6ca57ba|84637691|rds|local|vector|fit_recovery||394.758||
+fit_recovery_64fa2bd8|branch|c2fbec35d24c741f|72983d26893384e8|22f0570057de2ed6|-1740552168||t20466.6992164016s|316afbbea77d5a09|85347624|rds|local|vector|fit_recovery||121.267||
+fit_recovery_6ba0122a|branch|b4b0d8ae782472dc|72983d26893384e8|4a6597e662afb0b1|-564342023||t20466.6924409032s|6492fb08b650f4fc|84854515|rds|local|vector|fit_recovery||86.181||
+fit_recovery_73016da0|branch|5ae39c533425d1eb|72983d26893384e8|7a3fa7db9d0e3a26|-1035270645||t20466.7049220202s|feeda4696ae459ec|84259935|rds|local|vector|fit_recovery||141.419|There were 3 divergent transitions after warmup. Seehttpsmcstan.orgmiscwarnings.htmldivergenttransitionsafterwarmupto find out why this is a problem and how to eliminate them.. Examine the pairs plot to diagnose sampling problems|
+fit_recovery_7419068a|branch|f269c08f2223a6a8|72983d26893384e8|a4264af7bbd7601a|229306318||t20466.7065589078s|c114ae5a1cc5778f|84503092|rds|local|vector|fit_recovery||135.003||
+fit_recovery_7d0e0b2f|branch|b1a529cd21edf80a|72983d26893384e8|a81969ebdb59c9f2|1199049810||t20466.7115416335s|e97ca8c337fe603a|85238326|rds|local|vector|fit_recovery||224.301||
+fit_recovery_8762569f|branch|73aa7f6a8e7e9154|72983d26893384e8|5b62d2a8960ed99e|412285147||t20466.6490157098s|eebe3583f673d58f|84654969|rds|local|vector|fit_recovery||111.999||
+fit_recovery_8b115dad|branch|36f9b49371675803|72983d26893384e8|40ab74428fcad403|1848538479||t20466.6653276911s|b8f4418174f652f0|85314535|rds|local|vector|fit_recovery||211.679||
+fit_recovery_8e068683|branch|fa6958a74f19664a|72983d26893384e8|f99099e511336e85|-1670148759||t20466.6913744345s|97ef664bcf928066|84111957|rds|local|vector|fit_recovery||105.914||
+fit_recovery_8e6e657e|branch|f77d6f1e5ce1798f|72983d26893384e8|0f889b94162ed28b|-1723289774||t20466.6668343726s|aba2c3e67c4911ca|84459139|rds|local|vector|fit_recovery||123.742||
+fit_recovery_9e26fa2b|branch|e29c08edeaed2748|72983d26893384e8|e77343fdfb6a1035|-1082472828||t20466.650354755s|c11b603485bac170|85345998|rds|local|vector|fit_recovery||109.521||
+fit_recovery_a44b4de3|branch|07668777fb6917e8|72983d26893384e8|d94366257d4f7465|1144403763||t20466.6476508257s|35c9f464a9a82973|84302006|rds|local|vector|fit_recovery||109.526||
+fit_recovery_ae98e6b1|branch|2f6d893c9ded403a|72983d26893384e8|1f2ee676e2096ebe|-1817750808||t20466.6449765208s|f245375174c0c337|85328208|rds|local|vector|fit_recovery||110.603||
+fit_recovery_bc6209b7|branch|9f5cc0fbd091f59c|72983d26893384e8|1b336ef80902b300|1364750155||t20466.7032087245s|78f3e7c98bd18e7e|85184448|rds|local|vector|fit_recovery||119.109||
+fit_recovery_c25f9888|branch|f1188af0f827b2c8|72983d26893384e8|555ff066d0c996bf|1120701067||t20466.6766237966s|ee5ec3a23d9510ab|85696250|rds|local|vector|fit_recovery||367.72||
+fit_recovery_cc6a47e2|branch|3a3372c4fa6b767b|72983d26893384e8|74458418b8e4b8b4|1070625141||t20466.6463165006s|a7e39eafbd9e2d00|84796197|rds|local|vector|fit_recovery||109.957||
+fit_recovery_cdfcfb94|branch|5246469c74ba81b3|72983d26893384e8|a0df0ce30f822641|-886001847||t20466.6532016346s|fd964d248a22dc35|85117161|rds|local|vector|fit_recovery||118.694||
+fit_recovery_d58a2a67|branch|56f1848d527caa58|72983d26893384e8|951090df7f62e586|440289835||t20466.6887880349s|5acfd1d6ae429f17|83793113|rds|local|vector|fit_recovery||105.19||
+fit_recovery_d6f92fd3|branch|0c77a2afde9ae556|72983d26893384e8|760cbfaafbc7629c|-1373606983||t20466.662804672s|e6849da08826861a|85459175|rds|local|vector|fit_recovery||139.459||
+fit_recovery_ddd3dcc6|branch|86dc0b677b6cae3a|72983d26893384e8|c693178d617ab37b|-1673898238||t20466.6573188972s|718b05e1df4a6e11|84587790|rds|local|vector|fit_recovery||110.767||
+fit_recovery_e71b18c3|branch|4588159f2e8c3d2a|72983d26893384e8|e784c3b5c171a0d4|103014023||t20466.6900805923s|b096b80f4ba8887f|84174872|rds|local|vector|fit_recovery||105.921||
+fit_recovery_ee482680|branch|4e99e80775a9db2e|72983d26893384e8|dcc1e11b90067b8b|249161773||t20466.6950543648s|2490a59f5b1402e3|84935857|rds|local|vector|fit_recovery||108.753||
+fit_recovery_f12ba71a|branch|f7c51831fe0d596a|72983d26893384e8|8919a6a6487792d3|172789237||t20466.7005819379s|90bf49736ca4bc36|85130348|rds|local|vector|fit_recovery||111.707||
+fit_recovery_f256ef83|branch|cb84763a3d11d697|72983d26893384e8|8bde40101595746f|-434484630||t20466.6598812808s|b8c1d718b87d66e9|85034194|rds|local|vector|fit_recovery||91.406||
+fit_recovery_f914f473|branch|c06d0d1801d6003e|72983d26893384e8|2f9900726eefd7dd|-962924769||t20466.696492386s|3e0c31b5a5a291ca|84660435|rds|local|vector|fit_recovery||118.048||
+fit_recovery_fe545d14|branch|4aa694c1b5abb2be|72983d26893384e8|dfaf60409af6b086|-222905020||t20466.6546086624s|ebd8e9979fde2487|85006981|rds|local|vector|fit_recovery||115.35||
+fit_recovery_list|stem||06978b3d6f726fc3|8391efa4c13d61b1|-586470031||t20466.1780375738s||0|rds|local|vector|||4987.54|There were 1 divergent transitions after warmup. Seehttpsmcstan.orgmiscwarnings.htmldivergenttransitionsafterwarmupto find out why this is a problem and how to eliminate them.. Examine the pairs plot to diagnose sampling problems. There were 1 divergent transitions after warmup. Seehttpsmcstan.orgmiscwarnings.htmldivergenttransitionsafterwarmupto find out why this is a problem and how to eliminate them.. Examine the pairs plot to diagnose sampling problems|1m22m36mℹ39m In index 21.36mℹ39m With name 21.1mCaused by error22m33m39m vector memory exhausted limit reached
+fit_RewardOnly|stem|f20b35bfc52b9789|1e62af11a98fb9ca|e2dc3fee94cc1c71|1653687068||t20424.8243541293s|ee534086a64b08e8|217982851|rds|local|vector|||713.56|There were 3 divergent transitions after warmup. Seehttpsmcstan.orgmiscwarnings.htmldivergenttransitionsafterwarmupto find out why this is a problem and how to eliminate them.. Examine the pairs plot to diagnose sampling problems|
+fit_RewardOnly_on_FullSVsim|stem|cfdf11c04ceb1922|1087d66b70024b1e|3639be20fbe87a56|-1779887043||t20469.933798641s|5d46c0c368616727|89194368|rds|local|vector|||543.81||
+fit_RewardOnly_on_RewardOnlysim|stem|3bf2c7411c12bf8b|bc6f458b17489ebd|6e6cf9eece7271a2|-1422617028||t20469.9589247201s|19b502dede1468a0|89392109|rds|local|vector|||481.951||
+fit_RewardOnly_on_TDRLsim|stem|89e162e277e9622f|157d0f29b8645987|dabbc7cda0ce57be|551972757||t20469.9060734596s|53a508c574b5df81|88681411|rds|local|vector|||528.014||
+fit_RewardOnly_pooled|stem|a60e0234e8202c7e|1e62af11a98fb9ca|2088aabda7322585|1788141952||t20410.785541533s|de949ce54998356a|217573555|rds|local|vector|||444.195|There were 70 divergent transitions after warmup. Seehttpsmcstan.orgmiscwarnings.htmldivergenttransitionsafterwarmupto find out why this is a problem and how to eliminate them.. Examine the pairs plot to diagnose sampling problems|
+fit_TDRL|stem|f0e99037bda05593|626d679978bb87b0|e2dc3fee94cc1c71|487716183||t20424.8581607313s|2cae03692d3d16e6|279616045|rds|local|vector|||2888.492|The largest Rhat is NA, indicating chains have not mixed.Running the chains for more iterations may help. Seehttpsmcstan.orgmiscwarnings.htmlrhat. Bulk Effective Samples Size ESS is too low, indicating posterior means and medians may be unreliable.Running the chains for more iterations may help. Seehttpsmcstan.orgmiscwarnings.htmlbulkess. Tail Effective Samples Size ESS is too low, indicating posterior variances and tail quantiles may be unreliable.Running the chains for more iterations may help. Seehttpsmcstan.orgmiscwarnings.htmltailess|
+fit_TDRL_on_FullSVsim|stem|21063fc45ac0d185|c583d80e1dba0bf4|1a07ea90b94cc6e0|1739733906||t20469.9273389565s|5cd420df4ab9bd61|114106296|rds|local|vector|||1166.839||
+fit_TDRL_on_RewardOnlysim|stem|95808873e0910376|1c115bbf510aed45|1da13e3b11b3259c|-1986408753||t20469.9459378251s|b44b77467169ea87|114270244|rds|local|vector|||1033.677|There were 2 divergent transitions after warmup. Seehttpsmcstan.orgmiscwarnings.htmldivergenttransitionsafterwarmupto find out why this is a problem and how to eliminate them.. Examine the pairs plot to diagnose sampling problems|
+fit_TDRL_on_TDRLsim|stem|182b7a4f1852bac2|4a1c7e782b1d7d68|267b487d16499a45|1969643207||t20469.8998025717s|b64fb43bedff84b7|114055862|rds|local|vector|||1268.843||
+fit_TDRL_recovery|stem|dcc7c8c00dc11b29|4340876df16d9e2d|175de60514707610|-684176731||t20433.9030533444s|eddf254f54bca751|282079481|rds|local|vector|||2983.57||
+format_choice|function|15a8cdcb09d7abbe|||||||||||||||
+format_choice_hard|function|9b4fb4ffaa2b9c3a|||||||||||||||
+format_choice_rt|function|c8de4aa1115a2ff5|||||||||||||||
+format_complete_trial|function|a0fdea37beef032b|||||||||||||||
+format_group_id|function|54835d2acbbf1ae7|||||||||||||||
+format_outcome|function|329596311dcde96f|||||||||||||||
+format_probability|function|65cbe73ce5adbc0e|||||||||||||||
+format_rm_actual|function|329596311dcde96f|||||||||||||||
+format_rm_hard|function|ca455b19be9b7eb6|||||||||||||||
+fullsv_model_compiled|stem|7bebe6f6fae3871b|bba013570779dd44|c3b5fc02cdc369c1|2095718432||t20468.8288275428s|b1bf2bd5bbae52a0|1052028|rds|local|vector|||22.959||
+generate_group_posterior_plot_legend|function|8bbbbe192c136502|||||||||||||||
+generate_group_posterior_plot_tdrl_discount|function|fa04a8fe771caff7|||||||||||||||
+generate_group_posterior_plot_tdrl_discount_by_sex|function|bc383e3de875b453|||||||||||||||
+generate_group_posterior_plot_tdrl_inv_temp|function|1527c228e23f37a8|||||||||||||||
+generate_group_posterior_plot_tdrl_inv_temp_by_sex|function|579cb8013caf1f69|||||||||||||||
+generate_group_posterior_plot_tdrl_learnrate|function|7cf047d4cdaf689a|||||||||||||||
+generate_group_posterior_plot_tdrl_learnrate_by_sex|function|38d1ddfcca52e501|||||||||||||||
+generate_scatter_param_recov_plot|function|01eeb6c9af8a84e6|||||||||||||||
+get_bridge_error|function|8ef80cd808dd7f42|||||||||||||||
+get_max_trials|function|87eb977cf955613c|||||||||||||||
+get_num_subjects|function|cb9d0daf8bcd4390|||||||||||||||
+get_trials_per_subj|function|408d331f8a90b059|||||||||||||||
+group_labels|stem|e5c30e1c72efa86d|01c3e83d3f054104|71a70ff910fc43dc|738875583||t20466.7448933424s|1e8c839b6a9aff9c|279|rds|local|vector|||0.002||
+group_posterior_plot_individual_tdrl_discount|stem|c4fa5001cf20482f|b35e3a4a0e5de2bc|6f2194101df0cc5d|1799886006||t20424.9176021535s|b30b127c7c8bdbd3|225348793|rds|local|vector|||0.259||
+group_posterior_plot_individual_tdrl_inv_temp|stem|b177931b12a1fc4a|5ae21109bf9111fd|aa9b7f15e356e289|-1010964105||t20424.9181942174s|f85da60570d8b786|225350272|rds|local|vector|||0.282||
+group_posterior_plot_individual_tdrl_learnrate|stem|9c2666d84d1935fd|f2e0c7624f1c90cd|65026bb3c36feff4|1392507638||t20424.9178981372s|1cffc19b5431c992|225348886|rds|local|vector|||0.266||
+group_posterior_plot_legend|stem|212e2134b56b0966|87ddceee4fb3e3b2|92c0beb95b263168|-1449377537||t20424.9173053555s|e1358f9cb5f8c12a|226432603|rds|local|vector|||0.674|1m22mThe x argument of as_tibble.matrix must have unique column names if.name_repair is omitted as of tibble 2.0.0.36mℹ39m Using compatibility .name_repair.. 1m22mUsing size aesthetic for lines was deprecated in ggplot2 3.4.0.36mℹ39m Please use linewidth instead.|
+hard_mag_list|stem|8b58a11cd368001f|9ea893a5a61b226f|3fc84696e322112a|1668552650||t20465.8031524459s|4a2db33f3b2f78c9|1120|rds|local|vector|||0.001||
+hard_mag_list_mr|stem|8b58a11cd368001f|0e5cecced08b48c8|d675dd5724e06670|-508909644||t20466.8351456803s|4a2db33f3b2f78c9|1120|rds|local|vector|||0||
+hard_prob_lists|stem|69879e9bb27c054b|0753bfdfd8c594b0|81ca06d9b33e815b|-1319512371||t20465.803152232s|ca3e0fdd4c773bcd|1988|rds|local|vector|||0||
+hard_prob_lists_mr|stem|69879e9bb27c054b|0753bfdfd8c594b0|81ca06d9b33e815b|1806101670||t20466.835145533s|ca3e0fdd4c773bcd|1988|rds|local|vector|||0.001||
+loo_comparison|function|a2a86cb003ef4c43|||||||||||||||
+loo_info_FullSV|stem|4643a160be1137e9|f5a5d5b2edf47994|a4369870599a963b|2062453604||t20424.8582228979s|3c0021825bde106a|42170469|rds|local|vector|||1.346||
+loo_info_RewardOnly|stem|db4777624226c0b7|39545e0ddc65d70d|dcf16d73bf3a7da2|1812417901||t20424.8891993853s|ad36f6f74858a412|42143083|rds|local|vector|||1.073||
+loo_info_TDRL|stem|e036169e0b2f13ba|6d4bd636c05481c2|aacb149dec768595|2117604399||t20424.9126234417s|22eb4770915deaea|45073251|rds|local|vector|||1.471|Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.|
+merge_actual_recovered|function|287fc376ee34f63e|||||||||||||||
+model_comparison_summary|stem|8e1ff1459a23b9f4|f578cfae422b1227|abd9e3d98e1c4641|2039867800||t20480.7088191808s|b3654bf3682c79ca|86|rds|local|vector|||0.023|Truncating sheet names to 31 characters|
+model_recovery_accuracy|stem|88cc82a7b1110d23|80b79634f2b278f9|fd85d59caf2ad7cd|-285965676||t20468.6833376429s|94e1d7418d47ed10|214|rds|local|vector|||0.002||
+model_recovery_confusion|stem|527638fc7958818d|7dd5b49f1f06c71a|178f100f6a87123a|867135033||t20468.6833377381s|4a62745a16bcf9e1|179|rds|local|vector|||0.006||
+model_recovery_excel|stem|a09c45f033eaf9b9|8ad4ff69e8d3c79c|85135e7fc15e2312|-1794553182|Results/Model_Recovery.xlsx|t20468.6833397177s|add765df3c767579|11586|file|local|vector|||0.169||
+model_recovery_scores|stem|d55c6aaed83141af|92403261f2477999|20e68507f233c498|1127831145||t20472.880937214s|ac5678394de34e6f|277|rds|local|vector|||0.002||
+model_recovery_summary|stem|a515ff988bc96e47|dbe629b5f7009b76|06a4f4cd2080d42b|876152550||t20480.7093412953s|46d99e55c387943d|1044|rds|local|vector|||14.86|Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.. Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.. Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.. Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.. Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.. Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.. Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.. Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.. Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.|
+model_recovery_winners|stem|854e531b9daab002|3fd842fd758da672|9fb00ed57aa723c5|572605877||t20468.6833375617s|4ab5162d65433dbc|228|rds|local|vector|||0.011||
+mr_bridge_list|stem|46ae344d1a178b93|f1511cf32b10ffc2|c4b6b375d6b5093a|-850573293||t20472.8992828926s|a6faa98bfc54d022|1271|rds|local|vector|||0.001||
+mr_fit_list|stem|13ddf040cf1d9027|00165233a730447f|e7e6746855da87c6|1688420198||t20472.8992745735s|9223596b21bbbda6|953552731|rds|local|vector|||0||
+organize_loo_and_bridge|function|60d8a482e2580d51|||||||||||||||
+pack_sim_into_stan_arrays|function|eada0313253043b5|||||||||||||||
+pack_sim_into_stan_arrays_sv|function|a018b412d62978a0|||||||||||||||
+param_recov_scatter_discount|stem|62447c5150647df2|e3596a9ce472ff96|37b9eed98d5611cc|1893306976||t20466.7331068963s|cdbd69139c74b4f5|259605|rds|local|vector|||0.058||
+param_recov_scatter_fig|stem|5e39f0ed855b6a86|1dac5ef1a0795124|c92f22bfbaf0babe|174458601||t20466.7331224309s|40b3a10246f0095b|83|rds|local|vector|||1.126||
+param_recov_scatter_inv_temp|stem|93c9e8938fcdbbc3|242ff58b1859e979|37b9eed98d5611cc|1346784195||t20466.7331080242s|4dc9bcfca84ea89c|259593|rds|local|vector|||0.017||
+param_recov_scatter_learnrate|stem|4a811ab6e1312661|196d32c0cb723b03|37b9eed98d5611cc|1783796277||t20466.7331093553s|bcb75c10e0495a6f|259598|rds|local|vector|||0.018||
+param_recovery_stats_excel|stem|6443cc06ed160aa4|38cb0d0380a85efb|236afa1399646bd7|1782754768|Results/Parameter_Recovery_Stats.xlsx|t20468.6833402542s|d761bf3bf6229138|11907|file|local|vector|||0.043||
+params_eval|stem|e69933da17b08e43|d5d3aa9f26650f62|d17d093483b6ab48|-1086610616||t20466.7331052961s|0af529c7df2af46f|5041|rds|local|vector|||0.004||
+params_eval_grouped|stem|f467c7a6784ffea3|d5bd2e8dc278e463|23afb72fcada8b27|-641351632||t20466.7448937839s|33f975cd7a0a0733|5157|rds|local|vector|||0.003||
+pars_FullSV|stem|d36e3175949954fb|f1f3f1536a54907a|8007956d61087ea1|1598257629||t20424.8586107561s|372969b50db82127|223122360|rds|local|vector|||5.71||
+pars_RewardOnly|stem|e648cdf5884653e6|ad0ce0eb4681c086|c6952de0720f4f0e|-46310496||t20424.8999669223s|55216c6b002e91ad|171978864|rds|local|vector|||5.959||
+pars_TDRL|stem|242a0598ad9e76b2|79cc8c8e8c5d58b0|4f082328eaeb43c0|-209507333||t20424.9125709222s|bdcb6ccd3720f590|221080686|rds|local|vector|||6.653||
+pars_TDRL_recovery|stem|c89467ee0fc4f89c|fdb4a3b035e5158f|d6bbbd6292369d54|1035047788||t20433.9034348358s|25c92cf2581f0e46|223224719|rds|local|vector|||4.021||
+Posterior_Distributions_legend|stem|7fcb532368087c4d|5cca98fcd41c3729|e2488598bd45e495|-1957509628||t20424.9182035108s|dfd0d40dc0c5171b|95|rds|local|vector|||0.659||
+Posterior_Distributions_nonoverlayed|stem|ef793743e118c884|e84e65175c11fbea|753b51f67c50e760|-1811822969||t20424.9182162633s|bb4e721372eac6a0|88|rds|local|vector|||1.099||
+pRewardOnlycessed_data|stem||2ecff6fa110ad8f7|91aba956ed5b3772|-1081847790||t20466.8175660905s||0|rds|local|vector|||0.002||could not find function eefrt_pRewardOnlycess_data
+prob_list|stem|fbb0a362872a38e4|8e1a09c9e22f4405|3fc84696e322112a|-1379178033||t20465.8031524837s|928f28f6ec044076|1081|rds|local|vector|||0||
+prob_list_mr|stem|fbb0a362872a38e4|d81181c3479495ba|d675dd5724e06670|1066492016||t20466.8351457128s|928f28f6ec044076|1081|rds|local|vector|||0||
+processed_data|stem|414955f3bc9c0015|fbf58adf122d597d|24fbcfb6a4fd1bd4|1423143877||t20410.6570700008s|71bd8deed9e084f6|75377|rds|local|vector|||0.053||
+recovered_params|stem|4be9b378bed67bde|de36223fc28213bf|d6aae9dd85de07fc|-1497650307||t20433.9034500801s|44409802c5f3d285|2582|rds|local|vector|||1.165||
+rewardonly_model_compiled|stem|7c02ec77c2463cbd|65d1ed97fc23db56|c3b5fc02cdc369c1|-734905569||t20468.8290816516s|e3bb14a80a8ee304|1011836|rds|local|vector|||21.873||
+run_model_recovery_once|function|ee544630341a7371|||||||||||||||
+run_stan_model|function|4d3711fefc327ccd|||||||||||||||
+save_figure.ggplot_post|function|b240b136f2a4eb96|||||||||||||||
+save_model_recovery_excel|function|efb402ec42497fbb|||||||||||||||
+scores_on_FullSVsim|stem|53dc1568ed876c79|fa17be83aba5897a|05f92627964589ee|-733944911||t20472.8743143648s|28f9d9a9ef15cef2|216|rds|local|vector|||1.552|Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.. Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.. Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.|
+scores_on_RewardOnlysim|stem|b6b01bc95649fee7|156ef1541bedd234|3ba2eeb68e582b22|-155123681||t20472.8794337795s|eaf4be1ffe060f33|217|rds|local|vector|||1.664|Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.. Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.. Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.|
+scores_on_TDRLsim|stem|2513241db518fb2f|35b454d42387c55b|2e33a460d49183e2|-611200769||t20472.863778665s|28f9d9a9ef15cef2|216|rds|local|vector|||1.225|Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.. Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.. Some Pareto k diagnostic values are too high. See helpparetokdiagnostic for details.|
+sd_FullSV_FullSV|stem|c0d571b10d995907|0b9d3b71bf27ce3f|2d9a0889f6c1cf50|2140319793||t20469.8682957263s|7d83343a91a87dc4|2921|rds|local|vector|||0.044||
+sd_FullSV_RewardOnly|stem|c0d571b10d995907|0b9d3b71bf27ce3f|2d9a0889f6c1cf50|1019122068||t20469.8682960988s|7d83343a91a87dc4|2921|rds|local|vector|||0.014||
+sd_FullSV_TDRL|stem|351c20e18e2f58a8|e586ab360ec69d24|9a428d62de8329c0|-958309614||t20469.8682959016s|1b81372827418547|4436|rds|local|vector|||0.011||
+sd_RewardOnly_FullSV|stem|16a00c2efcd6b9af|93de7ac57e4f9e61|75a58a1768ee2fcc|583762057||t20469.8682965196s|dc056b69e91d5e0d|2947|rds|local|vector|||0.015||
+sd_RewardOnly_RewardOnly|stem|16a00c2efcd6b9af|93de7ac57e4f9e61|75a58a1768ee2fcc|1367561231||t20469.8682966986s|dc056b69e91d5e0d|2947|rds|local|vector|||0.012||
+sd_RewardOnly_TDRL|stem|e6213cb4f93be4ce|b49a9fd93a826720|61a88171a56b4b5e|809670948||t20469.8682962996s|13904f0e561e54ed|4486|rds|local|vector|||0.011||
+sd_TDRL_FullSV|stem|e0fad83e9ee6784b|4a5336caf1c5e481|b564454b06521fcb|-826670804||t20469.8682947097s|0c1d8cf0b1259372|2908|rds|local|vector|||0.023||
+sd_TDRL_RewardOnly|stem|e0fad83e9ee6784b|4a5336caf1c5e481|b564454b06521fcb|-2056648606||t20469.868295167s|0c1d8cf0b1259372|2908|rds|local|vector|||0.006||
+sd_TDRL_TDRL|stem|668697aba05007bb|d7640e93b3bf8044|1f6d712545c65d97|1045139458||t20469.8682950461s|20963a668b39d6d7|4467|rds|local|vector|||0.024||
+sim_data|stem|60909d526ea8334d|ed96dda25b766b06|4dfaa8b501cea86d|365671976||t20466.7331047782s|12563de0ddae6f14|21087|rds|local|vector|||0.096||
+sim_data_by_rep|stem|af6afec6181cdeda|aaa4096797c6d6e4|f52ba7680e024a8e|1716971079||t20466.6436300686s|ca2d94d40e7c600b|111004|rds|local|list||sim_data_by_rep_bcdaa249*sim_data_by_rep_5180fa5c*sim_data_by_rep_33916e8a*sim_data_by_rep_95a03f0b*sim_data_by_rep_69d707f3*sim_data_by_rep_56ba4f56*sim_data_by_rep_f08166a0*sim_data_by_rep_badf0512*sim_data_by_rep_9a5d1517*sim_data_by_rep_d2ed002f*sim_data_by_rep_4939be06*sim_data_by_rep_7889b1cc*sim_data_by_rep_14d6c43a*sim_data_by_rep_d92cb1b0*sim_data_by_rep_26289188*sim_data_by_rep_c2f12ac2*sim_data_by_rep_f54b7b4d*sim_data_by_rep_f488d9c4*sim_data_by_rep_55f3ee7e*sim_data_by_rep_6eb1953e*sim_data_by_rep_7440c699*sim_data_by_rep_13fa8e36*sim_data_by_rep_4de8d4b4*sim_data_by_rep_f4a187a9*sim_data_by_rep_7b7206d2*sim_data_by_rep_55bec2ed*sim_data_by_rep_9d8edae3*sim_data_by_rep_dd7c7d8e*sim_data_by_rep_6689506f*sim_data_by_rep_2f61e93d*sim_data_by_rep_468e2513*sim_data_by_rep_816f087a*sim_data_by_rep_7e48b88d*sim_data_by_rep_bb51e3de*sim_data_by_rep_5b7b3830*sim_data_by_rep_f3b13886*sim_data_by_rep_a17b4916*sim_data_by_rep_d1434c78*sim_data_by_rep_89a6d3d5*sim_data_by_rep_ffe8be4a*sim_data_by_rep_8437d3a8*sim_data_by_rep_25b8501d*sim_data_by_rep_4e1bcc9b*sim_data_by_rep_9b9971a7*sim_data_by_rep_202c04b7*sim_data_by_rep_6b333eec*sim_data_by_rep_55ff1882*sim_data_by_rep_0773fa0d*sim_data_by_rep_7be3d68e*sim_data_by_rep_552a8028|0.004||
+sim_FullSV_gen|stem|47a1b3d01ecefc9a|22a92952b1a20bf8|27706672b22e2f71|50251407||t20468.6637685241s|92772cc80f82d776|21030|rds|local|vector|||0.107||
+sim_RewardOnly_gen|stem|31c09566880ebc67|a85aad2d91ab1393|969a5ec6d2d45465|364709076||t20466.8427961961s|c718ade5fbaba086|21062|rds|local|vector|||0.093||
+sim_TDRL_gen|stem|980ba61e6161986a|907648bc4331ebf7|9796cdb9086e1dce|297639711||t20466.8427950053s|2b9578357e7c2ea2|21050|rds|local|vector|||0.074||
+simulate_dataset_fullsv|function|6189851398d4f817|||||||||||||||
+simulate_dataset_rewardonly|function|67178e47726aed22|||||||||||||||
+simulate_dataset_tdrl|function|c0fd46d6f77db3e0|||||||||||||||
+simulate_multiple_datasets|function|217bc870d31094a2|||||||||||||||
+simulate_tdrl|function|64d8066d02f98ef3|||||||||||||||
+simulate_tdrl_all_participants|function|7727cc171b254310|||||||||||||||
+stan_data|stem|03f369d0989d1411|c75f51260124bfd9|c9d183dafb6fb921|-24570201||t20410.6810198465s|890c79c8e0e44f42|35146|rds|local|vector|||0.09||
+stan_data_pooled|stem||e8231a8cf194e4a7|55108abb828adb01|1563868986||t20410.6552906348s||0|rds|local|vector|||0.002||could not find function eefrt_prep_stan_data
+stan_data_sim|stem|f61e74dc9609f6db|9436cab4ec78feed|4c7640c768f81a52|-1907381787||t20466.7331051692s|fde146ce7c3b8775|4480|rds|local|vector|||0.029||
+stem_data_import|object|abaca1fb451f8c46|||||||||||||||
+stem_model_compilation|object|c8d842543161ac8b|||||||||||||||
+stem_model_recovery|object|666021407a6d5315|||||||||||||||
+stem_parameter_recovery|object|5140a7e62e551ec1|||||||||||||||
+stem_stan_fitting|object|338959010ad46816|||||||||||||||
+stem_stan_vis_gRewardOnlyups|object|b6aef13b1e9aa7ee|||||||||||||||
+stem_stan_vis_groups|object|a47c7a6682c3b0ad|||||||||||||||
+tdrl_model_compiled|stem|3d0d09a21f4aa40d|1fe03def8393d57d|c3b5fc02cdc369c1|252090174||t20468.8285606754s|6699dd1854b2b263|1073277|rds|local|vector|||25.391||
+truncate_to_T|function|f88ae4eec8e9bd6e|||||||||||||||
+write_model_recovery_excel|function|cfe81cceb060a32e|||||||||||||||
+write_recovery_stats_excel|function|385b0ad950706b70|||||||||||||||

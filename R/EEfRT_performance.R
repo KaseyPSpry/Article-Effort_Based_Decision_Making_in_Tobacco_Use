@@ -246,6 +246,13 @@ easy_only <- performance_data_combined_first50 %>%
   filter(easy_only)
 easy_only
 
+# High effort selections by probability level
+high_effort_selections_by_prob <- performance_data_combined_first50 %>%
+  group_by(probability) %>%
+  summarise(
+    percent_high_effort = mean(choice_1_hard, na.rm = TRUE) * 100
+  )
+
 # High effort selections between groups
 subject_summary <- performance_data_combined_first50 %>%
   group_by(subject, group) %>%  # Replace subject_id with your actual subject identifier column name
