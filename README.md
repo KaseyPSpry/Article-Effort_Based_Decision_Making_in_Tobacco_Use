@@ -1,5 +1,5 @@
 # Article-Effort_Based_Decision_Making_in_Tobacco_Use
-This repository contains the scripts and data used in "Effort and Substance Use: Differentiating Tobacco Use Through Reinforcement Learning of Effort Based Decision Making"
+This repository contains the scripts used in "Effort and Substance Use: Differentiating Tobacco Use Through Reinforcement Learning of Effort Based Decision Making"
 
 # Data
 To obtain raw data for the EEfRT task and participant demographics, reach out to either Kasey Spry (kasey.spry@wfusm.edu) or Dr. Merideth Addicott (merideth.addicott@wfusm.edu).
